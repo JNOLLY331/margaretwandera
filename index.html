@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Nexa Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://cdn.boxicons.com/3.0.4/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/3.0.4/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    h4.hover:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+   #countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Makes items wrap on very small screens */
+}
+
+#countdown div {
+  background: rgba(131, 121, 121, 0.2);
+  padding: 13px 23px;
+  border-radius: 10px;
+  text-align: center;
+  min-width: 80px;
+}
+
+#countdown span {
+  display: block;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#countdown small {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  color: #ddd;
+}
+
+/* Responsive for small screens */
+@media (max-width: 480px) {
+  #countdown span {
+    font-size: 1.3rem;
+  }
+  
+  #countdown div {
+    padding: 8px 13px;
+    min-width: 55px;
+  }
+}
+
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/LOGO2.png" class="logo2" alt="">
+        <!--<h1 class="sitename">Nexa</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu ms-auto">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Message</a></li>
+          <li><a href="#services">Education</a></li>
+          <li><a href="#portfolio">Family</a></li>
+          <li><a href="#team">Team</a></li>
+          <li class="dropdown"><a href="#"><span>Achievements</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links ms-5">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+  <hr>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-10">
+            <div>
+              <h1>Count Down</h1>
+              <div id="countdown">
+                <div>
+                  <span id="days">00</span>
+                  <small>DAYS</small>
+                </div>
+                <div>
+                  <span id="hours">00</span>
+                  <small>HOURS</small>
+                </div>
+                <div>
+                  <span id="minutes">00</span>
+                  <small>MINS</small>
+                </div>
+                <div>
+                  <span id="seconds">00</span>
+                  <small>SECS</small>
+                </div>
+              </div>
+
+              <a href="index.html" class="announcement-icon py-0">
+                <i class="bi bi-megaphone pt-0 mt-0"></i><br>
+                <span class="fs-2 text-center"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Announcement!!!</span>
+              </a>
+            </div>
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Sr.Dr. Margaret wandera Nyongesa</h2>
+              <h5 id="announcement-text" class="jubilee-announcement"></h5>
+
+
+              <div class="hero-btns" data-aos="fade-up" data-aos-delay="300">
+                <a href="#about" class="btn btn-primary">Welcome all. 30th Dec, 2025 At KARUNGU HOME GROUNDS</a>
+                <a href="https://youtu.be/J6xY2JnNnPE?si=ocEIKM757pByECsn" target="_blank" class="btn btn-outline ">
+                  <i class="bi bi-play-circle"></i>
+                  Watch Event
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="hero-image-container" data-aos="zoom-in" data-aos-delay="400">
+              <div class="hero-image">
+                <img src="assets/img/about/maggy.jpg" alt="Business Innovation" class="img-fluid">
+                <div class="image-decoration"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="500">
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-calendar"></i>
+                </div>
+                <h3><span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1" class="purecounter"></span>yrs</h3>
+                <p>Age</p>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3><span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span></h3>
+                <p class="">Siblings</p>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-people-fill"></i>
+                </div>
+                <h3><span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span></h3>
+                <p>Parents-alive</p>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-globe"></i>
+                </div>
+                <h3><span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>+</h3>
+                <p>Year of service in the clergy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">my message</span>
+        <h2>my message</h2>
+        <p fs-3><i>i want to take this chance to thank God for giving me an opportunity to serve the clergy</i></p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gx-0 gx-lg-5 gy-5 align-items-center">
+          <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+            <div class="image-wrapper">
+              <div class="image-box">
+                <img src="assets/img/about/magy.jpg" class="img-fluid" alt="About Image" loading="lazy">
+              </div>
+              <div class="experience-box" data-aos="zoom-in" data-aos-delay="300">
+                <div class="years">25+</div>
+                <div class="text">Years of<br>service</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+            <div class="content">
+              <div class="section-header">
+                <h3>Dedicating my life to serve God has been the Best Decision ever i made</h3>
+              </div>
+
+              <h5 class="highlight-text">i will love to urge and empower young people to also join the clergy and serve the lord. I pray for:</h5>
+
+              <div class="features-list">
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="icon-box">
+                    <i class="bi bi-check2-circle"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Calling of more young people to join the clergy</h4>
+                    <p>serving the lord with purpose</p>
+                  </div>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="icon-box">
+                    <i class="bi bi-check2-circle"></i>
+                  </div>
+                  <div class="text">
+                    <h4>A better and a prayerful generation</h4>
+                    <p>particularly addressing young people to always acknowledge God in their daily live,cherish and practice the word</p>
+                  </div>
+                </div>
+
+                <div class="feature-item" data-aos="zoom-in" data-aos-delay="500">
+                  <div class="icon-box">
+                    <i class="bi bi-check2-circle"></i>
+                  </div>
+                  <div class="text">
+                    <h4>Justice</h4>
+                    <p>As a society there is urgent need to uphold intergrity and equality across of levels of interaction.From the law courts to institutions.A society where humanity is upheld</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-buttons py-0 style:align-item:center">
+                <a href="#" class="btn-get-started py-2">Read Again</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section py-0">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Education and Work</span>
+        <h2>Education and work</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        
+        <div class="services-container">
+          <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">01</span>
+                  <h3 class="service-title">PHD holder from Maseno univwersity</h3>
+                  <p class="service-text">Sr.Margaret Wandera is a doctor of philosy from maseno university</p>
+                  <a href="" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">02</span>
+                  <h3 class="service-title">Bachelors Degree in Public health from Kenyatta  University</h3>
+                  <p class="service-text">Dr. wandera is also a certified health practioner.</p>
+                  <a href="https://scholar.google.com/citations?user=qFoQ2iUAAAAJ&hl=en" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">03</span>
+                  <h3 class="service-title">Medical Laboratory</h3>
+                  <p class="service-text">Dr.wandera has a diploma in medical Laboratory </p>
+                  <a href="https://scholar.google.com/citations?user=qFoQ2iUAAAAJ&hl=en" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi-easel"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">04</span>
+                  <h3 class="service-title">Lecture at Technical University of Kenya</h3>
+                  <p class="service-text">Sr.Dr wandera margaret is  currently serving as a lecture at the Technical University of Kenya, where she is passionately mentoring and nurting young and industrious minds to become productive in the future</p>
+                  <a href="https://orcid.org/0000-0002-6805-5812" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi bi-mortarboard"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">04</span>
+                  <h3 class="service-title">Former lecture at AMREF International University</h3>
+                  <p class="service-text">Dr. wandera served as a senior lecture at AMREF IU where his service and dedication helped transform lives of young scholars</p>
+                  <a href="https://www.iomcworld.org/author-profile/margaret-wandera-nyongesa-27621" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item">
+                <div class="service-icon">
+                  <i class="bi bi-capsule"></i>
+                </div>
+                <div class="service-content">
+                  <span class="service-number">04</span>
+                  <h3 class="service-title">Hospital manager</h3>
+                  <p class="service-text">Dr.Margaret also served as a hospital manager at St. Joseph maternal home in Eastleigh, Nairobi(K) <br>where her leadership skills greatly transformed the discharge of services</p>
+                  <a href="https://orcid.org/0000-0002-6805-5812" class="service-link">
+                    Learn More
+                    <i class="bi bi-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Steps Section -->
+    <section id="steps" class="steps section mb-0">
+
+      <!-- Section Title -->
+      <div class="section-title mb-0" data-aos="fade-up">
+        <span class="description-title">CORE VALUES</span>
+        <h2>CORE VALUES</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container mb-0" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="steps-5">
+          <div class="process-container">
+
+            <div class="process-item" data-aos="fade-up" data-aos-delay="200">
+              <div class="content">
+                <span class="step-number">01</span>
+                <div class="card-body">
+                  <div class="step-icon">
+                    <i class="bi  bi-heart"></i>
+                  </div>
+                  <div class="step-content">
+                    <h3>Discipline</h3>
+                    <p>Sr margaret is a disciplined and principled individual whose morals serve as an inspiration to many</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Process Item -->
+
+            <div class="process-item" data-aos="fade-up" data-aos-delay="300">
+              <div class="content">
+                <span class="step-number">02</span>
+                <div class="card-body">
+                  <div class="step-icon">
+                    <i class="bxr  bx-church"></i>
+                  </div>
+                  <div class="step-content">
+                    <h3>prayerful</h3>
+                    <p>Sr.Dr. wandera ever dedicating in serving the lord through prayers and intercessions</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Process Item -->
+
+            <div class="process-item" data-aos="fade-up" data-aos-delay="400">
+              <div class="content">
+                <span class="step-number">03</span>
+                <div class="card-body">
+                  <div class="step-icon">
+                    <i class="bi bi-pencil-square"></i>
+                  </div>
+                  <div class="step-content">
+                    <h3>Hardwork</h3>
+                    <p>Sr.Dr.is an ambitious and industrious person which has greatly contributed to her excellence as an academician.
+                      she is also proficient in her carrier where she discharge her services with dignity and diligence
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Process Item -->
+
+            <div class="process-item" data-aos="fade-up" data-aos-delay="500">
+              <div class="content">
+                <span class="step-number">04</span>
+                <div class="card-body">
+                  <div class="step-icon">
+                    <i class="bi bxr bx-head"></i>
+                  </div>
+                  <div class="step-content">
+                    <h3>Intergrity</h3>
+                    <p>Dr. wandera is a person led by intergrity, honesty and alway advocates for justice and equity</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Process Item -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Steps Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">speeches and referees</span>
+        <h2>Testimonials  & referees</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="testimonials-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 800,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": 1,
+              "spaceBetween": 30,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "768": {
+                  "slidesPerView": 2
+                },
+                "1200": {
+                  "slidesPerView": 3
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                    “Today, we honor Sr. Margaret Wandera for her remarkable dedication, compassion, and faithful service. As her nephew, I’m deeply proud of her inspiring journey. May God continue guiding her with strength, joy, and grace in the years ahead.”
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-m-8.png" alt="Profile Image">
+                    <div>
+                      <h3>Mr.Japheth Anold</h3>
+                      <h4>The Nephew</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                   We gather today to honor Sr. Margaret Wandera for her dedicated service,and inspiring commitment to our community. May this jubilee celebration remind her of many lives she has touched and the grace she continues to share.
+
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-f-3.webp" alt="Profile Image">
+                    <div>
+                      <h3>Hon.Eunice Namenya</h3>
+                      <h4>Step-mum</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                  Today, we honor Sr. Margaret Wandera on this special jubilee. Your devotion, kindness, and unwavering spirit touch all who know you. As your sister, I feel blessed and proud. May your journey continue to inspire and uplift.
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-f-10.webp" alt="Profile Image">
+                    <div>
+                      <h3>Mrs.Julia Wandera</h3>
+                      <h4>The Younger Sister</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                    My dear daughter, Sr. Margaret Wandera, today we celebrate your incredible journey. Your faith, kindness, and dedication bring me immense pride. May God continue to bless you abundantly and guide you, as you inspire all who know you.
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-m-5.webp" alt="Profile Image">
+                    <div>
+                      <h3>Cornelia Nasirimbu</h3>
+                      <h4>The Mother</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                    Dear Aunt Sr. Margaret Wandera, today we celebrate your amazing journey. Your love, guidance, and faith inspire me deeply. As your eldest niece, I feel proud and blessed. May God continue to bless and shine upon you always.
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-m-2.webp" alt="Profile Image">
+                    <div>
+                      <h3>Mrs Caren Wandera</h3>
+                      <h4>The Eldest Niece</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-card">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon"></i>
+                   Beloved Sr. Margaret Wandera, today we rejoice in your extraordinary path. Your grace, generosity, and steadfast spirit illuminate every life you touch. As your friend, I am privileged to witness your journey and wish you abundant joy and blessings.
+                  </p>
+                </div>
+                <div class="testimonial-profile">
+                  <div class="rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                  </div>
+                  <div class="profile-info">
+                    <img src="assets/img/person/person-f-7.webp" alt="Profile Image">
+                    <div>
+                      <h3>Mrs Ruth</h3>
+                      <h4>A Friend</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Family</span>
+        <h2>Family</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order">
+
+          <div class="portfolio-filters-wrapper" data-aos="fade-up" data-aos-delay="100">
+            <ul class="portfolio-filters isotope-filters">
+              <li data-filter="*" class="filter-active btn btn-outline-info">All Members</li>
+              <li data-filter=".filter-branding" class="btn px-2 btn-outline-info">Parents</li>
+              <li data-filter=".filter-web" class="btn px-2 btn-outline-info">Nephew</li>
+              <li data-filter=".filter-print" class="btn px-2 btn-outline-info">Sisters,&nbsp;Nieces ans nephews</li>
+              <li data-filter=".filter-motion" class="btn px-2 btn-outline-info">In-laws</li>
+            </ul>
+          </div>
+
+          <div class="row gy-4 portfolio-grid isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Brand Identity" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/portfolio-3.webp" class="glightbox zoom-link" title="Mother. Mama Cornelia Nasirimbu">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Mother</h3>
+                  <p>Mama Cornelia Nasirimbu</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/potrait.jpeg" class="img-fluid" alt="E-commerce Platform" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/potrait.jpeg" class="glightbox zoom-link" title="Mr.Japheth Anold(nephew)">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                      <a href="https://myportfolio-git-master-japheth-anolds-projects.vercel.app/" target="_blank" class="details-link" title="Julius Wesonga(in-law)">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                     
+
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Nephew</h3>
+                  <p>Mr.Japheth Anold</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/portfolio-1.png" class="img-fluid" alt="Magazine Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/portfolio-1.png" class="glightbox zoom-link" title="The Late Mzee Anthony Nyongesa Wandera(Father)">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>The Father</h3>
+                  <p>The Late Mzee Anthony Nyongesa Wandera</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-motion">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/jw.jpg" class="img-fluid" alt="Motion Graphics" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/jw.jpg" class="glightbox zoom-link" title="Motion Graphics">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                     
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Mr.Julius Wesonga</h3>
+                  <p>Brother-in-law</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/family.jpg" class="img-fluid" alt="Logo Collection" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/family.jpg" class="glightbox zoom-link" title="Extended Family">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Extended Family</h3>
+                  <p>sisters,&nbsp;nieces,&nbsp;Cousins and nephews</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/family2.jpg" class="img-fluid" alt="Mobile App Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/family2.jpg" class="glightbox zoom-link" title="Family">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Extended Family</h3>
+                  <p>sisters,&nbsp;nieces,&nbsp;Cousins and nephews</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/family3.jpg" class="img-fluid" alt="Packaging Design" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/family3.jpg" class="glightbox zoom-link" title="family members">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Family Members</h3>
+                  <p>Mr.JUlius(in-law),&nbsp; Frida(Elder-siz),&nbsp; Japheth-Anold(Nephew)</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="Brand Animation" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/portfolio-3.jpg" class="glightbox zoom-link" title="Sister">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Sisters</h3>
+                  <p>Maxmilla, Frida, Agnetta.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-print">
+              <div class="portfolio-card">
+                <div class="image-container">
+                  <img src="assets/img/portfolio/mum.png" class="img-fluid" alt="Brand Animation" loading="lazy">
+                  <div class="overlay">
+                    <div class="overlay-content">
+                      <a href="assets/img/portfolio/mum.png" class="glightbox zoom-link" title="Mrs.Julia Wandera(youngest sister)">
+                        <i class="bi bi-zoom-in"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="content">
+                  <h3>Mrs.Julia Wandera</h3>
+                  <p>Youngest Sister</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Grid -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Team</span>
+        <h2>ALBUM</h2>
+        <h5>Memories never Fade</h5>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/portfolio/1763622638827.jpg" class="img-fluid" alt="" loading="lazy">
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/person/IMG-20250921-WA0073.jpg" class="img-fluid" alt="" loading="lazy">
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/person/IMG-20250921-WA0075.jpg" class="img-fluid" alt="" loading="lazy">             
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/person/IMG-20250921-WA0109.jpg" class="img-fluid" alt="" loading="lazy">          
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/person/IMG-20250921-WA0110.jpg" class="img-fluid" alt="" loading="lazy">             
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-image">
+                <img src="assets/img/person/IMG-20250921-WA0111.jpg" class="img-fluid" alt="" loading="lazy">             
+              </div>
+            </div><!-- End Team Member -->
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Pricing Section
+    <section id="pricing" class="pricing section">
+      <-- Section Title 
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Pricing</span>
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><-- End Section Title 
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>Basic</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">19</span>
+                  <span class="period">/ month</span>
+                </div>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill"></i> Donec volutpat metus in erat</li>
+                <li><i class="bi bi-check-circle-fill"></i> Vestibulum ut erat consectetur</li>
+                <li><i class="bi bi-check-circle-fill"></i> Curabitur pretium orci sed metus</li>
+                <li class="disabled"><i class="bi bi-x-circle-fill"></i> Vivamus tincidunt risus ipsum</li>
+                <li class="disabled"><i class="bi bi-x-circle-fill"></i> Nullam lobortis nulla in diam</li>
+              </ul>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card featured">
+              <div class="pricing-header">
+                <h3>Pro</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">49</span>
+                  <span class="period">/ month</span>
+                </div>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill"></i> Donec volutpat metus in erat</li>
+                <li><i class="bi bi-check-circle-fill"></i> Vestibulum ut erat consectetur</li>
+                <li><i class="bi bi-check-circle-fill"></i> Curabitur pretium orci sed metus</li>
+                <li><i class="bi bi-check-circle-fill"></i> Vivamus tincidunt risus ipsum</li>
+                <li class="disabled"><i class="bi bi-x-circle-fill"></i> Nullam lobortis nulla in diam</li>
+              </ul>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="pricing-card">
+              <div class="pricing-header">
+                <h3>Enterprise</h3>
+                <div class="price">
+                  <span class="currency">$</span>
+                  <span class="amount">99</span>
+                  <span class="period">/ month</span>
+                </div>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill"></i> Donec volutpat metus in erat</li>
+                <li><i class="bi bi-check-circle-fill"></i> Vestibulum ut erat consectetur</li>
+                <li><i class="bi bi-check-circle-fill"></i> Curabitur pretium orci sed metus</li>
+                <li><i class="bi bi-check-circle-fill"></i> Vivamus tincidunt risus ipsum</li>
+                <li><i class="bi bi-check-circle-fill"></i> Nullam lobortis nulla in diam</li>
+              </ul>
+              <div class="text-center">
+                <a href="#" class="btn btn-primary">Choose Plan</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><-- /Pricing Section 
+     -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <div class="faq-wrapper">
+              <h3 class="text-center mt-0 mb-3">FREQUENTLY ASKED QUESTIONS</h3>
+              <div class="faq-item faq-active">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>Who is Sr.Margaret wandera?</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>Sr.Margaret is a member of sisters of St.joseph from consolata shrines westlands Nairobi(k).Where she serves Passionately as a member of the clergy</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+              <div class="faq-item">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>When was Sr.Margaret Nyongesa wandera ordained as a sister</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>Sr.Margaret when ordained in 2009</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+              <div class="faq-item">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>Does Sr.margaret have any career apart from her vacation work?</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>yes,Sr.Margaret is a senior lecture in kenya, she has taught several universities and she is currently at The Technical University Of Kenya where she discharge knowledge to young scholars</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+              <div class="faq-item">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>What is the highest Levels of Education that Sr.Margaret has attained?</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>Sr.Margaret hold a doctorate degree and she is also a doctor of philosy(Phd) where she has published alot of research papers</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+              <div class="faq-item">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>What was the Biggest Motivation for Sr.Margaret to become a sister?</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>Since her youthful life,Sr.Margaret ever dreamt of Dedicating her life to serving the Lord</p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+              <div class="faq-item">
+                <div class="faq-header">
+                  <div class="faq-icon">
+                    <i class="bi bi-question-circle"></i>
+                  </div>
+                  <h4>When is the jubilee celebrations taking place?</h4>
+                  <div class="faq-toggle">
+                    <i class="bi bi-plus"></i>
+                    <i class="bi bi-dash"></i>
+                  </div>
+                </div>
+                <div class="faq-content">
+                  <div class="content-inner">
+                    <p>The Jubilee celebration will be held on 30th of December,2025 At their home ground <a href="#direction">Karungu Village,Busia County</a></p>
+                  </div>
+                </div>
+              </div><!-- End FAQ Item -->
+
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="description-title">Contact</span>
+        <h2>Contact</h2>
+        <p class="fw-bold">For any inquiries, suggestions, complements,comments,advise or any other concern, feel free to reach out</p>
+      </div><!-- End Section Title -->
+
+      <div class="container p-2">
+        <div class="contact-wrapper">
+          <div class="contact-info-panel">
+            <div class="contact-info-header">
+              <h4>Contact Information</h4>
+            </div>
+
+            <div class="contact-info-cards">
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-pin-map-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Location</h4>
+                  <p>Busia county,Nambale sub-county,bukhayo-East ward,mungatsi sub-location,Karungu village</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Email</h4>
+                  <p>wanderamargaret@gmail.com</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-telephone-fill"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Call</h4>
+                  <p>+254(7)-225-618-26</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Calling Hours</h4>
+                  <p>9AM - 7PM</p>
+                </div>
+              </div>
+
+              <div class="info-card">
+                <div class="icon-container">
+                  <i class="bi bi-clock-history"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Appointments</h4>
+                  <p>Mon, wed, fri: 11AM -3PM</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links-panel">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-panel">
+            <div class="map-container" id="direction">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d506024.5810208876!2d33.75171661376955!3d0.4748099340179762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177f82ef01c16139%3A0xb5dfb76c68ac5d14!2sSt.%20Anne&#39;s%20Green%20School%20Karungu%20Primary%20School!5e1!3m2!1sen!2ske!4v1763630844976!5m2!1sen!2ske" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="form-container">
+              <h3>Send Us a Message</h3>
+              <form action="forms/contact.php" method="post" class="php-email-form">
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="nameInput" name="name" placeholder="Full Name" required="">
+                  <label for="nameInput">Full Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="emailInput" name="email" placeholder="Email Address" required="">
+                  <label for="emailInput">Email Address</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <input type="text" class="form-control" id="subjectInput" name="subject" placeholder="Subject" required="">
+                  <label for="subjectInput">Subject</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="messageInput" name="message" rows="5" placeholder="Your Message" style="height: 150px" required=""></textarea>
+                  <label for="messageInput">Your Message</label>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <div class="d-grid">
+                  <button type="submit" class="btn-submit">Send Message <i class="bi bi-send-fill ms-2"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4 class="hover">Address</h4>
+            <p>Busia (K)</p>
+            <p>Namble constituency</p>
+            <p></p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4 class="hover">Contacts</h4>
+            <p>
+              <strong>Phone:</strong> <span>+254(7)-225-618-26</span><br>
+              <strong>Email:</strong> <span>wanderamargaret@gmail.com</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4 class="hover">Appointments</h4>
+            <p>
+              <strong>Mon, wed, fri:</strong> <span>11AM - 3PM</span><br>
+              <strong>Sunday</strong>: <span>Closed</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4 class="hover">Follow</h4>
+          <div class="social-links d-flex">
+            <a href="https://wa.me/254722561826?text=Congratulations%20Sr.Margaret" class="twitter" target="_blank"><i class='bxl  bx-whatsapp'></i> </i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bxl bx-youtube"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Sr Maggy Biography</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        Designed by <a href="https://myportfolio-git-master-japheth-anolds-projects.vercel.app/" target="_blank" onmouseover="this.style.color='yellow-green'" onmouseout="this.style.color='green'">Japheth Anold</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
