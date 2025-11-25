@@ -144,7 +144,7 @@ document.addEventListener('scroll', toggleScrollTop);
 const announcementText = document.getElementById('announcement-text');
 const message = "Celebrating 25 years, silver jubilee, for her religious life.";
 const typingSpeed = 70; 
-const pauseDuration = 4000;
+const pauseDuration = 3000;
 
 function getRandomColor() {
   return "#" + Math.floor(Math.random() * 16777215).toString(16);
