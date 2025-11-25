@@ -137,28 +137,39 @@ setInterval(changeColors, 1500);
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
 
-  const announcementText = document.getElementById('announcement-text');
-const message = "Celebrating 25 years, silver jubilee, for my religious life";
-const typingSpeed = 70; // ms per letter
-const pauseDuration = 4000; // pause after full message before clearing
+  window.addEventListener('load', toggleScrollTop);
+document.addEventListener('scroll', toggleScrollTop);
+
+
+const announcementText = document.getElementById('announcement-text');
+const message = "Celebrating 25 years, silver jubilee, for her religious life.";
+const typingSpeed = 70; 
+const pauseDuration = 4000;
+
+function getRandomColor() {
+  return "#" + Math.floor(Math.random() * 16777215).toString(16);
+}
 
 function typeMessage() {
-  announcementText.textContent = "";
+  announcementText.innerHTML = "";
   let index = 0;
 
   const typer = setInterval(() => {
-    announcementText.textContent += message[index];
+    const span = document.createElement("span");
+    span.textContent = message[index];
+    span.style.color = getRandomColor();  // apply random color
+    announcementText.appendChild(span);
+
     index++;
     if (index === message.length) {
       clearInterval(typer);
-      // Wait for a while, then start over
       setTimeout(typeMessage, pauseDuration);
     }
   }, typingSpeed);
 }
 
-// Start typing
 typeMessage();
+
 
   
   /**
